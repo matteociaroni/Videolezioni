@@ -1,15 +1,4 @@
 <?php
-/*database();
-function database()
-{
-	$username = "acquamarinapesaro";
-	$password = "";
-	$host = "localhost";
-	$database = "my_acquamarinapesaro";
-
-	$db = mysql_connect($host, $username, $password) or die("Errore durante la connessione al database");
-	mysql_select_db($database, $db) or die("Errore durante la selezione del database");
-}*/
 
 function database2() //crea la connessione con il database
 {
