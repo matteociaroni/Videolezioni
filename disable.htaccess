@@ -1,0 +1,4 @@
+#rinominando questo file in .htaccess si verrà sempre reindirizzati alla pagina disable.php
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !/disable\.php$
+RewriteRule ^(.*)$ http://acquamarinapesaro.altervista.org/Vari/4C/disable.php [R=302,L]

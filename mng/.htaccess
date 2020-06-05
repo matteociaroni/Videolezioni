@@ -1,0 +1,4 @@
+<Files MNGnavbar.html>
+order allow,deny
+Deny from all
+</Files>

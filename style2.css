@@ -1,0 +1,259 @@
+body
+{
+	margin: 0;
+	float: center;
+	text-align: center !important;
+	font-size: 150%;
+	font-family: Arial;
+}
+
+.nav-item, .nav-link, .nav-link:hover, .nav-item:hover
+{
+	margin-left: 20px;
+	color: white !important;
+	text-align: left;
+	font-size: 105%;
+}
+
+.navbar-brand, .navbar-brand:hover
+{
+	font-size: 150% !important;
+	margin-left: 25px;
+	color: white !important;
+}
+
+h1
+{
+	font-size: 350% !important;
+	margin-top: 40px !important;
+}
+
+h2
+{
+	margin-top: 40px !important;
+	font-size: 150%;
+}
+
+.bg-custom
+{
+	background-color: #373c73;
+}
+
+dl
+{
+	font-size: 27px;
+}
+
+.select1
+{
+	font-size: 70%;
+	padding: 4px;
+	border: 1px solid #616161;
+	margin: 0 -5px;
+	text-indent: 5px;
+	width: 130px;
+}
+
+.selectData
+{
+	font-size: 50%;
+	padding: 4px;
+	border: 1px solid #616161;
+	margin: 0 -5px;
+	text-indent: 5px;
+	width: 200px;
+}
+
+input, textarea
+{
+	font-size: 15px !important;
+	width: 250px;
+}
+
+option
+{
+	font-size: 90%;
+}
+
+optgroup
+{
+	font-size: 80%;
+	font-weight: normal;
+}
+
+table, td, tr
+{
+	font-size: 24px;
+	height: 50px;
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table
+{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+
+.spessa
+{
+	border-top: 2px solid black;
+}
+
+.btn
+{
+	color: white !important;
+	width: 120px;
+	height: 50px;
+	font-size: 100%;
+	margin-top: 25px;
+	background-color: #546486 !important;
+}
+
+.wh
+{
+	color: white !important;
+	text-decoration: none;
+}
+
+.wh:hover
+{
+	color: white !important;
+}
+
+.intestazione
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+a, a:hover
+{
+	text-decoration: none !important;
+	color: black !important;
+}
+
+.link
+{
+	text-decoration: underline !important;
+}
+
+.bottom
+{
+	text-decoration: underline;
+}
+
+.signature
+{
+	font-size: 50%;
+	margin-top: 25px;
+}
+
+input.ora
+{
+	width: 80px;
+}
+
+.riga
+{
+	border: 2px solid black
+}
+
+@media (min-width: 1201px)
+{
+	.btn:hover
+	{
+		background: #2b374c !important;
+	}
+
+	.wh:hover
+	{
+		text-decoration: underline !important;
+	}
+
+	.nav-link:hover, .nav-item:hover:hover, .navbar-brand:hover
+	{
+		text-decoration: underline !important;
+	}
+}
+
+@media (max-width: 1100px)
+{
+	.btn:active
+	{
+		background: #2b374c !important;
+	}
+
+	.wh:active
+	{
+		text-decoration: underline !important;
+	}
+
+	.nav-link:active, .nav-item:hover:active, .navbar-brand:active
+	{
+		text-decoration: underline !important;
+	}
+
+	table, td, tr
+	{
+		font-size: 18px;
+	}
+
+	form
+	{
+		margin-top: 18px;
+	}
+
+	.ora
+	{
+		font-size: 80%;
+	}
+
+	h1
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	p
+	{
+		font-size: 18px;
+	}
+
+	.selectData
+	{
+		width: 180px;
+	}
+
+	.bottom
+	{
+		font-size: 16px;
+	}
+}
+
+@media (prefers-color-scheme: dark)
+{
+	body
+	{
+		background: black;
+		color: white;
+	}
+
+	p, a
+	{
+		color: white;
+	}
+
+	table, td, tr
+	{
+		border: 1px solid white;
+	}
+
+	.riga
+	{
+		border: 2px solid white;
+	}
+}
