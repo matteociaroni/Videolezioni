@@ -49,6 +49,7 @@ function selectClasse($selected) //"riempe" la casella combinata delle classi co
 
 function selectProf($selectedProf) //"riempe" la casella combinata dei prof con l'elenco dei prof presenti nella tabella "Videolezioni" del database
 {
+	//i prof possono essere 2 separati da una virgola
 	$query="SELECT DISTINCT
     	SUBSTRING_INDEX(Prof, ',', 1) AS p,
         SUBSTRING_INDEX(Prof, ',', -1) AS q
